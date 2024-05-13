@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>GENERATE_QUERY_AND_TITLE</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Generate query and title</label>
+        <props>[
+    
+]</props>
+        <required_translations>[ ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-10 20:32:48</sys_created_on>
+        <sys_id>d80b749a93c2c210a51132ddfaba109f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Generate query and title</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_event_d80b749a93c2c210a51132ddfaba109f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-10 20:32:48</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="DELETE" query="documentkey=d80b749a93c2c210a51132ddfaba109f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>a79fc4d61bd2b550e84d2f8dee4bcb8a</instance_id>
+        <instance_name>dev205977</instance_name>
+        <name>sys_ux_event_d80b749a93c2c210a51132ddfaba109f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event"><sys_ux_event action="INSERT_OR_UPDATE"><description/><event_name>GENERATE_QUERY_AND_TITLE</event_name><explicit_api_name/><interfaces/><label>Generate query and title</label><props>[
+    
+]</props><required_translations>[ ]</required_translations><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_event</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-10 20:32:48</sys_created_on><sys_id>d80b749a93c2c210a51132ddfaba109f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Generate query and title</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ux_event_d80b749a93c2c210a51132ddfaba109f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-10 20:32:48</sys_updated_on></sys_ux_event><sys_translated_text action="delete_multiple" query="documentkey=d80b749a93c2c210a51132ddfaba109f"/></record_update>]]></payload>
+        <payload_hash>1281782374</payload_hash>
+        <record_name>Generate query and title</record_name>
+        <reverted_from/>
+        <source>7a9f2d0d93300210a51132ddfaba106b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-10 20:32:48</sys_created_on>
+        <sys_id>cb651556930ac210a51132ddfaba10b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f643558a00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-10 20:32:48</sys_updated_on>
+        <type>UX Event</type>
+        <update_guid>cf6515564f0ac210b8a72360bc978fb8</update_guid>
+        <update_guid_history>cf6515564f0ac210b8a72360bc978fb8:1281782374</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-10 20:35:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>0e238f0f4c06405d8a894a26cc16dd11</sys_id>
+        <sys_metadata>d80b749a93c2c210a51132ddfaba109f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Generate query and title</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_event_d80b749a93c2c210a51132ddfaba109f</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_d80b749a93c2c210a51132ddfaba109f">cb651556930ac210a51132ddfaba10b9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-10 20:35:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
