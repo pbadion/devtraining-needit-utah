@@ -67,7 +67,7 @@
                                     },
                                     "height": {
                                         "type": "JSON_LITERAL",
-                                        "value": null
+                                        "value": 125
                                     },
                                     "position": {
                                         "type": "JSON_LITERAL",
@@ -85,7 +85,7 @@
                                     },
                                     "width": {
                                         "type": "JSON_LITERAL",
-                                        "value": 125
+                                        "value": ""
                                     }
                                 },
                                 "slot": null,
@@ -774,7 +774,20 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": null
+                                            "styles": {
+                                                "align-self": "stretch",
+                                                "background": "rgb(var(--now-color--neutral-0))",
+                                                "flex": "custom",
+                                                "height": null,
+                                                "margin": "var(--now-scalable-space--lg)",
+                                                "margin-bottom": "var(--now-scalable-space--lg)",
+                                                "margin-left": "var(--now-scalable-space--lg)",
+                                                "margin-right": "var(--now-scalable-space--lg)",
+                                                "margin-top": "var(--now-scalable-space--lg)",
+                                                "min-height": "",
+                                                "min-width": "",
+                                                "width": ""
+                                            }
                                         }
                                     ],
                                     "layout": {
@@ -785,13 +798,16 @@
                                                     "element_id": "overdue_needits_score",
                                                     "styles": {
                                                         "align-self": "stretch",
-                                                        "background": "rgb(var(--now-color--neutral-1))",
+                                                        "background": "rgb(var(--now-color--neutral-0))",
                                                         "flex": "custom",
+                                                        "height": "",
                                                         "margin": "var(--now-scalable-space--lg)",
                                                         "margin-bottom": "var(--now-scalable-space--lg)",
                                                         "margin-left": "var(--now-scalable-space--lg)",
                                                         "margin-right": "var(--now-scalable-space--lg)",
                                                         "margin-top": "var(--now-scalable-space--lg)",
+                                                        "min-height": "",
+                                                        "min-width": "",
                                                         "width": ""
                                                     }
                                                 }
@@ -1077,6 +1093,7 @@
                                                     "type": "JSON_LITERAL",
                                                     "value": [
                                                         {
+                                                            "disableRanges": false,
                                                             "groupBy": [
                                                                 {
                                                                     "dataSource": "dGFibGV4XzU4ODcyX25lZWRpdF9uZWVkaXQxNzE0NTk2NTU3MjYw",
@@ -1404,9 +1421,7 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": {
-                                                "height": "250px"
-                                            }
+                                            "styles": null
                                         }
                                     ],
                                     "layout": {
@@ -1420,12 +1435,15 @@
                                                         "border-color": "RGB(var(--now-color--neutral-5))",
                                                         "border-style": "solid",
                                                         "border-width": "var(--now-static-space--xxs)",
-                                                        "flex": "0 1 auto",
+                                                        "flex": "custom",
+                                                        "height": "250px",
                                                         "margin": "var(--now-scalable-space--lg)",
                                                         "margin-bottom": "var(--now-scalable-space--lg)",
                                                         "margin-left": "var(--now-scalable-space--lg)",
                                                         "margin-right": "var(--now-scalable-space--lg)",
-                                                        "margin-top": "var(--now-scalable-space--lg)"
+                                                        "margin-top": "var(--now-scalable-space--lg)",
+                                                        "min-height": "",
+                                                        "width": ""
                                                     }
                                                 }
                                             ],
@@ -1961,7 +1979,18 @@
                                                 }
                                             },
                                             "slot": null,
-                                            "styles": null
+                                            "styles": {
+                                                "background": "rgb(var(--now-color--neutral-0))",
+                                                "flex": "1 0 auto",
+                                                "height": null,
+                                                "margin": "var(--now-scalable-space--lg)",
+                                                "margin-bottom": "var(--now-scalable-space--lg)",
+                                                "margin-left": "var(--now-scalable-space--lg)",
+                                                "margin-right": "var(--now-scalable-space--lg)",
+                                                "margin-top": "var(--now-scalable-space--lg)",
+                                                "min-height": "",
+                                                "width": ""
+                                            }
                                         }
                                     ],
                                     "layout": {
@@ -1971,13 +2000,18 @@
                                                 {
                                                     "element_id": "single_score_1",
                                                     "styles": {
+                                                        "align-self": "stretch",
                                                         "background": "rgb(var(--now-color--neutral-0))",
                                                         "flex": "1 0 auto",
+                                                        "height": "",
                                                         "margin": "var(--now-scalable-space--lg)",
                                                         "margin-bottom": "var(--now-scalable-space--lg)",
                                                         "margin-left": "var(--now-scalable-space--lg)",
                                                         "margin-right": "var(--now-scalable-space--lg)",
-                                                        "margin-top": "var(--now-scalable-space--lg)"
+                                                        "margin-top": "var(--now-scalable-space--lg)",
+                                                        "min-height": "",
+                                                        "min-width": "",
+                                                        "width": ""
                                                     }
                                                 }
                                             ],
@@ -2046,6 +2080,7 @@
                                         "element_id": "container_2",
                                         "styles": {
                                             "height": "",
+                                            "min-height": "",
                                             "width": "100%"
                                         }
                                     },
@@ -2053,6 +2088,7 @@
                                         "element_id": "container_3",
                                         "styles": {
                                             "height": "",
+                                            "min-height": "",
                                             "width": "100%"
                                         }
                                     }
@@ -2579,14 +2615,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-04-25 20:56:46</sys_created_on>
         <sys_id>0c1b442193f10210a51132ddfaba101d</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>NeedIt Admin home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_0c1b442193f10210a51132ddfaba101d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-05-02 21:03:58</sys_updated_on>
+        <sys_updated_on>2024-07-11 20:49:27</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=0c1b442193f10210a51132ddfaba101d"/>
 </record_update>
